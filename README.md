@@ -1,12 +1,13 @@
 ## Exp 8: Reproducing an Image Using Prompts for Image Generation
 
-# Date :
-# Reg. No. 
+# Date : 22/11/2025
+# Reg. No. 212223060123
 
 ## Aim:
 To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
 
 ## Procedure:
+
 1.	Analyze the Given Image:
 ○	Examine the image carefully, noting key elements such as:
 ■	Objects/Subjects (e.g., people, animals, objects)
@@ -16,18 +17,25 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 ■	Background (e.g., outdoor, indoor, simple, detailed)
 ■	Composition (e.g., focal points, perspective)
 ■	Style (e.g., realistic, artistic, cartoonish)
+
 2.	Create the Basic Prompt:
 ○	Write an initial, simple description of the image. For example, if the image shows a landscape, the prompt could be "A serene landscape with mountains and a river."
+
 3.	Refine the Prompt with More Detail:
 ○	Add specific details such as colors, mood, and time of day. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, and a few trees along the shore."
+
 4.	Identify Style and Artistic Influences:
 ○	If the image has a particular style (e.g., impressionist painting, realistic photography, minimalistic), include that in the prompt. For example: "A serene landscape in the style of a watercolor painting with soft, blended colors."
+
 5.	Adjust and Fine-tune:
 ○	Refine the prompt further by adding specific instructions about elements like textures, weather conditions, or any other distinctive features in the image. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, a few trees along the shore, and soft, pastel tones in the clouds."
+
 6.	Generate the Image:
 ○	Use the crafted prompt to generate the image in a text-to-image model (e.g., DALL·E, Stable Diffusion, MidJourney).
+
 7.	Compare the Generated Image with the Original:
 ○	Assess how closely the generated image matches the original in terms of colors, composition, subject, and style. Note the differences and refine the prompt if necessary.
+
 ## Tools/LLMs for Image Generation:
 ●	DALL·E (by OpenAI): A text-to-image generation tool capable of creating detailed images from textual prompts.
 ○	Website: DALL·E
@@ -35,6 +43,7 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 ○	Website: Stable Diffusion
 ●	MidJourney: A popular AI tool for generating visually striking and creative images based on text descriptions.
 ○	Website: MidJourney
+
 ## Instructions:
 1.	Examine the Given Image: Study the image to understand its key features—objects, colors, lighting, composition, and any stylistic choices.
 2.	Write the Basic Prompt: Start with a simple description of the primary elements in the image (e.g., "A sunset over a mountain range").
@@ -42,6 +51,7 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 4.	Use the Selected Tool: Choose an image generation model (e.g., DALL·E, Stable Diffusion, or MidJourney) and input the refined prompt.
 5.	Iterate and Adjust: If the initial result isn't quite right, adjust the prompt further based on the differences observed between the generated and original image.
 6.	Save and Document: Save the generated image and document your prompt alongside any observations on how the output compares to the original.
+
 ## Deliverables:
 1.	The Original Image: Provided image for reference.
 2.	The Final Generated Image: The image created using your refined prompt.
@@ -51,5 +61,39 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 ## Conclusion:
 By using detailed and well-crafted prompts, text-to-image generation models can be effective in reproducing an image closely. The quality of the generated image depends on how accurately the prompt describes the image's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate images that closely match real-world visuals, which is useful for creative and practical applications.
 
+## Image generation 1 : ( Using gemini AI - Nano Banana )
 
-## IMAGES: (CHOOSE ANY TWO BELOW AND REPRODUCE)
+## Basic prompt:
+just trees in the deep woods and a man sitting around near the fire pit he created and little bit of sunlight peeking through the trees. keep the weather chilly. no animals involved
+
+## Output : 
+<img width="1408" height="736" alt="Gemini_Generated_Image_l6hq55l6hq55l6hq" src="https://github.com/user-attachments/assets/3eeb2a0b-035c-44df-9b09-d7b24d1092a1" />
+
+## Refined prompt :
+he is sitting in a thick forest on ground near a fire pit and warming his hands due to cold. not on a rocky mountain.
+
+## output :
+<img width="1408" height="736" alt="Gemini_Generated_Image_ehhip9ehhip9ehhi" src="https://github.com/user-attachments/assets/5821ac43-ca7a-47b2-aa3f-9b5720592caa" />
+
+## Image generation 2 : ( Using gemini AI - Nano Banana )
+
+## Basic prompt :
+create a image of two warriors fighting on the mountain top with a sunset background. make it in webtoon style.
+
+## Output : 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_x2b5ksx2b5ksx2b5" src="https://github.com/user-attachments/assets/681f9a31-d4c1-448f-942d-30ddd57a030e" />
+
+## Refined Prompt : 
+remove the frame and enhance the silehouts of the warrior
+
+## output : 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_btm8l5btm8l5btm8" src="https://github.com/user-attachments/assets/c7f43957-c286-45b9-b4f3-a82c04e09c28" />
+
+
+
+
+
+
+
+
+
